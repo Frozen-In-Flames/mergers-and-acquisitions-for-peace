@@ -1,0 +1,105 @@
+{
+ "assignee_match_method": "USPTO PPUBS text search per name variant, client-side filter keeping hits whose assignee name contains every distinctive token of the variant. First variant with >=3 hits is used; the variant is recorded per company. Assignee names vary (subsidiaries, legacy names), so the match is labeled, not exact.",
+ "companies": [
+  {
+   "assignee_queries": [
+    "Lockheed Martin"
+   ],
+   "name": "Lockheed Martin",
+   "ticker": "LMT"
+  },
+  {
+   "assignee_queries": [
+    "Raytheon",
+    "RTX Corporation"
+   ],
+   "name": "RTX Corporation",
+   "ticker": "RTX"
+  },
+  {
+   "assignee_queries": [
+    "General Dynamics"
+   ],
+   "name": "General Dynamics",
+   "ticker": "GD"
+  },
+  {
+   "assignee_queries": [
+    "Northrop Grumman"
+   ],
+   "name": "Northrop Grumman",
+   "ticker": "NOC"
+  },
+  {
+   "assignee_queries": [
+    "Boeing"
+   ],
+   "name": "Boeing",
+   "ticker": "BA"
+  },
+  {
+   "assignee_queries": [
+    "Huntington Ingalls"
+   ],
+   "name": "Huntington Ingalls Industries",
+   "ticker": "HII"
+  },
+  {
+   "assignee_queries": [
+    "L3Harris",
+    "Harris Corporation",
+    "L-3 Communications"
+   ],
+   "name": "L3Harris",
+   "ticker": "LHX"
+  },
+  {
+   "assignee_queries": [
+    "Axon Enterprise",
+    "TASER International"
+   ],
+   "name": "Axon Enterprise",
+   "ticker": "AXON"
+  },
+  {
+   "assignee_queries": [
+    "General Electric"
+   ],
+   "name": "GE Aerospace",
+   "ticker": "GE"
+  },
+  {
+   "assignee_queries": [
+    "Honeywell"
+   ],
+   "name": "Honeywell Aerospace",
+   "ticker": "HONA"
+  },
+  {
+   "assignee_queries": [
+    "Howmet Aerospace",
+    "Arconic"
+   ],
+   "name": "Howmet Aerospace",
+   "ticker": "HWM"
+  },
+  {
+   "assignee_queries": [
+    "Textron",
+    "Bell Helicopter",
+    "Cessna Aircraft"
+   ],
+   "name": "Textron",
+   "ticker": "TXT"
+  },
+  {
+   "assignee_queries": [
+    "TransDigm"
+   ],
+   "name": "TransDigm Group",
+   "ticker": "TDG"
+  }
+ ],
+ "sector": "defense",
+ "source": "S&P 500 Corporate Stack vendor_map.json, reason_code=defense_gov, October 2026"
+}
